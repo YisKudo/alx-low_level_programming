@@ -30,7 +30,7 @@ int main(void)
 		if (hc == 9)
 		{
 			ch++;
-			hc = ch + 1;
+			hc = ch - 1;
 		}
 		}
 	}
