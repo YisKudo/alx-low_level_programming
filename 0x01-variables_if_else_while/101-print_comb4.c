@@ -26,6 +26,7 @@ int main(void)
 		if (hc == 9)
 		{
 			zc++;
+			hc = zc - 1;
 			if (zc == 8)
 			{
 				ch++;
