@@ -17,7 +17,10 @@ int main(void)
 		{
 			putchar('0' + ch);
 			putchar('0' + hc);
-			putchar(',');
+			if (ch != 8 && hc != 9)
+			{
+				putchar(',');
+			}
 			putchar(32);
 		if (hc == 9)
 		{
