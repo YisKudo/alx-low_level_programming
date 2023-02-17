@@ -31,7 +31,7 @@ int main(void)
 			{
 				ch++;
 				zc = ch + 1;
-				hc = ch + 2;
+				hc = zc + 1;
 			}
 		}
 		}
