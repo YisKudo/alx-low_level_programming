@@ -18,10 +18,7 @@ int main(void)
 			putchar('0' + ch);
 			putchar('0' + hc);
 			if (ch != 8 && hc != 9)
-			{
-				putchar(',');
-			}
-
+			putchar(',');
 			putchar(32);
 			if (ch == 8 && hc == 9)
 			{
