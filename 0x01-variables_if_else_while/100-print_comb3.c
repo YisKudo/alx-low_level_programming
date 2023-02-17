@@ -20,8 +20,8 @@ int main(void)
 			if (ch != 8)
 			{
 				putchar(',');
+				putchar(32);
 			}
-			putchar(32);
 		if (hc == 9)
 		{
 			ch++;
@@ -33,5 +33,6 @@ int main(void)
 			break;
 		}
 	}
+	putchar('\n');
 	return (0);
 }
