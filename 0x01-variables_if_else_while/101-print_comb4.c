@@ -13,7 +13,7 @@ int main(void)
 	while (2 > 1)
 	{
 		hc++;
-		if (ch < hc)
+		if (zc < hc && zc > ch)
 		{
 			putchar('0' + ch);
 			putchar('0' + zc);
