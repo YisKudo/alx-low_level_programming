@@ -18,7 +18,7 @@ int main(void)
 			putchar('0' + ch);
 			putchar('0' + zc);
 			putchar('0' + hc);
-			if (ch != 8)
+			if (ch != 7)
 			{
 				putchar(',');
 				putchar(32);
