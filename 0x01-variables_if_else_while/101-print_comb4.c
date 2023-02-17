@@ -10,6 +10,7 @@ int main(void)
 	int ch = 0;
 	int hc = 0;
 	int zc = 1;
+	
 	while (2 > 1)
 	{
 		hc++;
