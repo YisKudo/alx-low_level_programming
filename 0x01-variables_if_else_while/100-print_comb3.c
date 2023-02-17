@@ -8,10 +8,11 @@
 int main(void)
 {
 	int ch = 0;
-	int hc = 1;
+	int hc = 0;
 
 	while (2 > 1)
 	{
+		hc++;
 		if (ch < hc)
 		{
 			putchar('0' + ch);
@@ -29,8 +30,8 @@ int main(void)
 		if (hc == 9)
 		{
 			ch++;
+			hc = ch + 1
 		}
-		hc++;
 		}
 	}
 	putchar('\n');
