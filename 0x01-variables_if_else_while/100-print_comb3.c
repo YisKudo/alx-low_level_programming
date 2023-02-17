@@ -20,15 +20,15 @@ int main(void)
 			if (ch != 8 && hc != 9)
 			putchar(',');
 			putchar(32);
-			if (ch == 8 && hc == 9)
-			{
-				break;
-			}
 		if (hc == 9)
 		{
 			ch++;
 			hc = ch - 1;
 		}
+		}
+		if (ch == 9 && hc == 8)
+		{
+			break;
 		}
 	}
 	putchar('\n');
