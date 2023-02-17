@@ -16,7 +16,7 @@ int main(void)
 		if (ch < hc)
 		{
 			putchar('0' + ch);
-			putchar('0' + zc)
+			putchar('0' + zc);
 			putchar('0' + hc);
 			if (ch != 8)
 			{
