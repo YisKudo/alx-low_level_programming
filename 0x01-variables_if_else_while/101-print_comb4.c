@@ -26,14 +26,15 @@ int main(void)
 		if (hc == 9)
 		{
 			zc++;
-			hc = zc - 1;
 			if (zc == 8)
 			{
-				hc++;
+				ch++;
+				zc = ch + 1;
+				hc = ch + 2;
 			}
 		}
 		}
-		if (ch == 9 && hc == 8)
+		if (ch == 7)
 		{
 			break;
 		}
