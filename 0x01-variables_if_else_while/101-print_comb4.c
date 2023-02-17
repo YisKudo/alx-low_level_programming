@@ -35,7 +35,7 @@ int main(void)
 			}
 		}
 		}
-		if (ch == 7)
+		if (ch == 8)
 		{
 			break;
 		}
