@@ -9,7 +9,7 @@ int main(void)
 {
 	int ch = 0;
 	int hc = 1;
-	
+
 	while (2 > 1)
 	{
 		if (ch < hc)
@@ -20,14 +20,17 @@ int main(void)
 			{
 				putchar(',');
 			}
-			
+
 			putchar(32);
 			if (ch == 8 && hc == 9)
 			{
 				break;
 			}
+		if (hc == 9)
+		{
 			ch++;
-			hc++;
+		}
+		hc++;
 		}
 	}
 	putchar('\n');
