@@ -9,6 +9,7 @@
 int main(void)
 {
 	int i = 1024, j = 0;
+	
 	while (i > 0)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
