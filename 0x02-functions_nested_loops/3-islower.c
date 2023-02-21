@@ -3,7 +3,7 @@
 /**
  * _islower - checks for lowercse
  *
- * @c the input
+ * @c: the input
  *
  * Return: 1 if lowercase or 0 if upper
  */
