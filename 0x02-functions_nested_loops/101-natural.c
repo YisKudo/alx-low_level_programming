@@ -18,6 +18,6 @@ int main(void)
 		}
 		i--;
 	}
-	printf("%d also i is %d", j, i);
+	printf("%d\n", j);
 	return (0);
 }
