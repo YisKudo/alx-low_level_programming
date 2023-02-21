@@ -3,7 +3,6 @@
 /**
  * jack_bauer - checks for lowercse
  *
- * 
  *
  * Return: 1 if lowercase or 0 if upper
  */
