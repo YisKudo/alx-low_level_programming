@@ -3,7 +3,9 @@
 /**
  * _islower - checks for lowercse
  *
- * Return: void
+ * @c the input
+ *
+ * Return: 1 if lowercase or 0 if upper
  */
 
 int _islower(int c)
