@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void){
+void main(void){
     int i=0, j = 0;
 
     while(i != 1024){
