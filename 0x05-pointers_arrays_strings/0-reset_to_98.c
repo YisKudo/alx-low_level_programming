@@ -12,5 +12,4 @@ void reset_to_98(int *n)
 	int twnt = 98;
 	
 	n = &twnt;
-	return (n);
 }
