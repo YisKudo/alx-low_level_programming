@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * reset_to_98 - update value of pointer to 98
- *
- *@n: input pointer
- * Return: 0
- */
+  * reset_to_98 - A function that sets the arguement value to 98
+  * @n: A pointer to the value to be changed
+  * Return: NULL
+  */
 
 void reset_to_98(int *n)
 {
