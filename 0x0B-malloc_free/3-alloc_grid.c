@@ -10,12 +10,12 @@
 
 int **alloc_grid(int width, int height)
 {
-	unsigned int i, j, k;
-	char **strout;
+	int i, j;
+	int **strout;
 
 	if ((width <= 0) || (height <= 0))
 		return (NULL);
-	strout = malloc(sizeof(char) * (width + height));
+	strout = malloc(sizeof(int) * (width + height));
 	if (strout == NULL)
 		return (NULL);
 	for (i = 0; i < height; i++)
