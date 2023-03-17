@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * *string_nconcat - concatnates two strings
- * *s1: first string
- * *s2: second string
+ * string_nconcat - concatnates two strings
+ * s1: first string
+ * s2: second string
  * n: unsigned int
  * Return: pointer or NULL
  */
