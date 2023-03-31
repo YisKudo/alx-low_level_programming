@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include "lists.h"
 
+/*
+ * print_list - prints all strings in the list
+ * @h: the input list
+ * Return: number of node
+ */
+
 size_t print_list(const list_t *h)
 {
 	int count = 0;
