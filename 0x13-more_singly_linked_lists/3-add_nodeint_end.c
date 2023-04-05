@@ -3,7 +3,7 @@
 /**
  * add_nodeint_end - adds node at end of list
  * @head: first node
- * @str: string to be added
+ * @n: string to be added
  * Return: address of NULL
  */
 
