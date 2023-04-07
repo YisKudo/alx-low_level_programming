@@ -8,6 +8,7 @@ void print_binary(unsigned long int n)
 {
 	unsigned long int num;
 	int started = 0;
+
 	num = 1UL << 63;
 
 	for (; num > 0; num >>= 1)
