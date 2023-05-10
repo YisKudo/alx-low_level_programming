@@ -1,10 +1,4 @@
-#include <fcntl.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <sys/stat.h>
-#include <sys/types.h>
-#include <unistd.h>
-
+#include "main.h"
 #define BUFFER_SIZE 1024
 
 /**
